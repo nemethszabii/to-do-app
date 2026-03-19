@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "DemoWebApp.Controllers.ToDoController",
+    "Method": "GetAll",
+    "RelativePath": "api/ToDo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoWebApp.Controllers.ToDoController",
+    "Method": "Create",
+    "RelativePath": "api/ToDo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "todo",
+        "Type": "DemoWebApp.Model.ToDo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoWebApp.Controllers.ToDoController",
+    "Method": "Get",
+    "RelativePath": "api/ToDo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoWebApp.Controllers.ToDoController",
+    "Method": "Update",
+    "RelativePath": "api/ToDo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "todo",
+        "Type": "DemoWebApp.Model.ToDo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoWebApp.Controllers.ToDoController",
+    "Method": "Delete",
+    "RelativePath": "api/ToDo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

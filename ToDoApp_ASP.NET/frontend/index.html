@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>ToDo App</title>
+</head>
+<body>
+    <div class="title-display">
+        <h1>ToDo Dashboard</h1>
+    </div>
+
+    <div class="filter-div">
+        <input type="checkbox" id="completionFilter">
+        <label for="completionFilter" id="filterLabel">Show Only Completed</label>
+    </div>
+
+    <table class="table-display">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>IS COMPLETED</th>
+                <th>DUE DATE</th>
+                <th>ACTIONS</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+
+    <form class="create-form" id="createForm">
+        <h2>Creating a new ToDo</h2>
+
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input required type="text" name="title" id="title" placeholder="Title">
+        </div>
+        
+        <div class="form-group checkbox-group">
+            <input type="checkbox" name="isCompleted" id="isCompleted">
+            <label for="isCompleted">Completed?</label>
+        </div>
+
+        <div class="form-group">
+            <label for="dueDate">Due Date:</label>
+            <input required type="date" name="dueDate" id="dueDate">
+        </div>
+
+        <div class="formBtnGroup">
+            <button class="create-btn" type="submit">Create New</button>
+            <button class="delete-btn" id="cancelBtn" type="button">Cancel</button>
+        </div>
+    </form>
+
+    <form class="update-form" id="updateForm">
+        <h2>Updating a new ToDo</h2>
+
+        <div class="form-group">
+            <label for="updateTitle">Title:</label>
+        <input required type="text" name="updateTitle" id="updateTitle" placeholder="Title">
+        </div>
+        
+        <div class="form-group checkbox-group">
+            <input type="checkbox" name="updateIsCompleted" id="updateIsCompleted">
+            <label for="updateIsCompleted">Completed?</label>
+        </div>
+
+        <div class="form-group">
+            <label for="updateDueDate">Due Date:</label>
+            <input required type="date" name="updateDueDate" id="updateDueDate">
+        </div>
+
+        <div class="formBtnGroup">
+            <button class="create-btn" id="updateBtn" type="submit">Update</button>
+            <button class="delete-btn" id="updateCancelBtn" type="button">Cancel</button>
+        </div>
+    </form>
+
+    <div class="createBtnDiv">
+        <button id="createBtn" class="create-btn">➕</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

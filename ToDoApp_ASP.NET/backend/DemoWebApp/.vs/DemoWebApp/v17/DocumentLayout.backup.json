@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|c:\\users\\01sza\\desktop\\todoapp\\backend\\demowebapp\\demowebapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|solutionrelative:demowebapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|c:\\users\\01sza\\desktop\\todoapp\\backend\\demowebapp\\demowebapp\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|solutionrelative:demowebapp\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|c:\\users\\01sza\\desktop\\todoapp\\backend\\demowebapp\\demowebapp\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|solutionrelative:demowebapp\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|c:\\users\\01sza\\desktop\\todoapp\\backend\\demowebapp\\demowebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EF1B6-0BA4-4484-9BBA-59C060FF4EEA}|DemoWebApp\\DemoWebApp.csproj|solutionrelative:demowebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "DemoWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Program.cs",
+              "RelativeToolTip": "DemoWebApp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:57:10.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "DemoWebApp\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "DemoWebApp\\Controllers\\ToDoController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:16:40.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Model\\ToDo.cs",
+              "RelativeDocumentMoniker": "DemoWebApp\\Model\\ToDo.cs",
+              "ToolTip": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Model\\ToDo.cs",
+              "RelativeToolTip": "DemoWebApp\\Model\\ToDo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:09:06.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DemoWebApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\01sza\\Desktop\\ToDoApp\\backend\\DemoWebApp\\DemoWebApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DemoWebApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:08:16.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

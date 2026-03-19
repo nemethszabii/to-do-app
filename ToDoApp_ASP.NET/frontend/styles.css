@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.table-display {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.table-display thead th {
+    background-color: #0077cc;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.table-display th:first-child {
+    border-left: none;
+}
+
+.table-display th:last-child {
+    border-right: none;
+}
+
+.table-display td {
+    border: 1px solid #ddd;
+    padding: 10px 14px;
+    text-align: left;
+    background-color: hwb(203 89% 2%);
+}
+
+.table-display tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-display tbody tr:hover {
+    background-color: #eef6ff;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.get-btn {
+    background-color: #4aa3ff;
+}
+
+.edit-btn, .create-btn {
+    background-color: #28a745;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+
+.delete-btn:hover {
+    background-color: rgb(217, 18, 18);
+}
+
+.delete-btn:active {
+    background-color: rgb(186, 13, 13);
+}
+
+.update-form, .create-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 420px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.formBtnGroup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.createBtnDiv {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 8px;
+}
+
+.filter-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#filterLabel {
+    margin-right: 5px;
+}
+
+.title-display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hwb(203 89% 2%);
+}
